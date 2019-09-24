@@ -1,5 +1,2 @@
-<<<<<<< HEAD
-secondLine in develop
-=======
 firstLine in feature
->>>>>>> feature
+secondLine in develop
