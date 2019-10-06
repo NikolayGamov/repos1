@@ -27,7 +27,7 @@ fun main()
 
     var event = 10
 
-    while(event != 0)
+    while(event != 0 && petowner.getFriendlyPet())
     {
         println("1 - покормить питомца\n2 - убраться за питомцем\n")
         event = scan.nextInt()

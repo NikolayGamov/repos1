@@ -78,6 +78,7 @@ interface Voiceable
 
 abstract class Pet()
 {
+    var isFriendly = true
     private var purity = 1
 
     fun purityIncr()
@@ -114,11 +115,17 @@ abstract class Pet()
     fun goaway()
     {
         println("Go away!")
+        isFriendly = false
     }
 }
 
 class PetOwner( private var mypet: Pet)
 {
+    fun getFriendlyPet(): Boolean
+    {
+        return mypet.isFriendly
+    }
+
     fun setPet(pet: Pet)
     {
         mypet = pet
