@@ -78,8 +78,14 @@ interface Voiceable
 
 abstract class Pet()
 {
+    var isHungry = true
     var isFriendly = true
     private var purity = 1
+
+    fun askForEat()
+    {
+        println("Give me food!\t\t\t Pet asks for eat")
+    }
 
     fun purityIncr()
     {
@@ -95,6 +101,7 @@ abstract class Pet()
     fun eat()
     {
         println("Om-nom-nom\t\t\t Pet eats")
+        isHungry = false
         gotoilet()
         sleep()
     }
@@ -102,8 +109,12 @@ abstract class Pet()
     fun sleep()
     {
         if(purity >= 0)
+        {
             println("hrrrrrrrrr\t\t\t Pet sleeps")
-        else
+            isHungry = true
+            askForEat()
+        }
+            else
             goaway()
     }
 
@@ -142,6 +153,8 @@ class PetOwner( var mypet: Pet)
     {
         mypet.purityIncr()
         println("cleaning done!\t\t\t PetOwner cleaned pet`s area")
+        if(mypet.isHungry)
+            mypet.askForEat()
     }
 }
 
