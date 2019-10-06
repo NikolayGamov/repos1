@@ -167,7 +167,6 @@ class PetOwner( var mypet: Pet)
         if(mypet.isHungry > 0)
             mypet.askForEat()
         mypet.isIll()
-
     }
 }
 

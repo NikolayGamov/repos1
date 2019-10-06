@@ -9,7 +9,7 @@ fun main()
 
     println("Выберите питомца и введите его номер:\n1) Собака\n2) Кошка\n3) Попугай\n4) Змея\n5) Рыбка\n")
     val pet = scan.nextInt()
-    println("Имя питомца")
+    println("Придумайте имя питомцу:")
     val name = scan.next()
 
     when(pet)
