@@ -94,7 +94,7 @@ abstract class Pet()
 
     fun eat()
     {
-        println("Om-nom-nom")
+        println("Om-nom-nom\t\t\t Pet eats")
         gotoilet()
         sleep()
     }
@@ -102,24 +102,24 @@ abstract class Pet()
     fun sleep()
     {
         if(purity >= 0)
-            println("hrrrrrrrrr")
+            println("hrrrrrrrrr\t\t\t Pet sleeps")
         else
             goaway()
     }
 
     fun gotoilet()
     {
-        println("...!?!...")
+        println("...!?!...\t\t\t Pet goes toilet")
     }
 
     fun goaway()
     {
-        println("Go away!")
+        println("Go away!\t\t\t Pet leaved home")
         isFriendly = false
     }
 }
 
-class PetOwner( private var mypet: Pet)
+class PetOwner( var mypet: Pet)
 {
     fun getFriendlyPet(): Boolean
     {
@@ -133,7 +133,7 @@ class PetOwner( private var mypet: Pet)
 
     fun feed()
     {
-        println("food in bowl!")
+        println("food in bowl!\t\t\t PetOwner feeds pet")
         mypet.purityDecr()
         mypet.eat()
     }
@@ -141,7 +141,7 @@ class PetOwner( private var mypet: Pet)
     fun clean()
     {
         mypet.purityIncr()
-        println("cleaning done!")
+        println("cleaning done!\t\t\t PetOwner cleaned pet`s area")
     }
 }
 
