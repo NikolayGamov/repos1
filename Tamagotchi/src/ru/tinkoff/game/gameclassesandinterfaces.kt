@@ -117,7 +117,7 @@ abstract class Pet()
     }
 }
 
-class PetOwner( var mypet: Pet)
+class PetOwner( private var mypet: Pet)
 {
     fun setPet(pet: Pet)
     {
