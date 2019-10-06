@@ -23,7 +23,7 @@ fun main()
 
     var event = 10
 
-    while(event != 0 && petowner.getFriendlyPet())
+    while(event != 0 && petowner.mypet.isFriendly && petowner.mypet.isLive)
     {
         println("-----------------------\n" +
                 "0 - выйти из игры\n" +
