@@ -20,6 +20,9 @@
   </component>
   <component name="ProjectId" id="1RmlRCLikChmQFpMT34IhD0BCd6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Fintech\repos1\Tamagotchi\src\ru\tinkoff\catsagain" />
@@ -40,7 +43,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.ru.tinkoff.game.GamemainKt">
+  <component name="RunManager" selected="Kotlin.ru.tinkoff.task56.Task56Kt">
     <configuration name="ru.tinkoff.cats.CatsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Tamagotchi" />
       <option name="VM_PARAMETERS" />
@@ -80,19 +83,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ru.tinkoff.ride.RideKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="Tamagotchi" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="ru.tinkoff.ride.RideKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ru.tinkoff.tamagotchi.ClassesKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Tamagotchi" />
       <option name="VM_PARAMETERS" />
@@ -106,13 +96,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ru.tinkoff.task56.Task56Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="Tamagotchi" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="ru.tinkoff.task56.Task56Kt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.ru.tinkoff.task56.Task56Kt" />
         <item itemvalue="Kotlin.ru.tinkoff.game.GamemainKt" />
         <item itemvalue="Kotlin.ru.tinkoff.tamagotchi.ClassesKt" />
         <item itemvalue="Kotlin.ru.tinkoff.catsagain.CatsagainKt" />
         <item itemvalue="Kotlin.ru.tinkoff.cats.CatsKt" />
-        <item itemvalue="Kotlin.ru.tinkoff.ride.RideKt" />
       </list>
     </recent_temporary>
   </component>
