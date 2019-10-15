@@ -58,7 +58,7 @@ fun main()
 
     // Task 3
 
-    val owner = Owner<Pet>( Dog("sdawrg", 6, "M"))
+    val owner = Owner( Dog("sdawrg", 6, "M"))
 
     println(owner.feed())
 
