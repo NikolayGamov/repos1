@@ -41,7 +41,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.ru.tinkoff.lesson7.task1.Task7_1Kt">
+  <component name="RunManager" selected="Kotlin.ru.tinkoff.lesson7.task1.Task7Kt">
     <configuration name="ru.tinkoff.cats.CatsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Tamagotchi" />
       <option name="VM_PARAMETERS" />
@@ -81,14 +81,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ru.tinkoff.lesson7.task1.Task7_1Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="ru.tinkoff.lesson7.task1.Task7Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Tamagotchi" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="ru.tinkoff.lesson7.task1.Task7_1Kt" />
+      <option name="MAIN_CLASS_NAME" value="ru.tinkoff.lesson7.task1.Task7Kt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -109,7 +109,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.ru.tinkoff.lesson7.task1.Task7_1Kt" />
+        <item itemvalue="Kotlin.ru.tinkoff.lesson7.task1.Task7Kt" />
         <item itemvalue="Kotlin.ru.tinkoff.game.GamemainKt" />
         <item itemvalue="Kotlin.ru.tinkoff.tamagotchi.ClassesKt" />
         <item itemvalue="Kotlin.ru.tinkoff.catsagain.CatsagainKt" />
