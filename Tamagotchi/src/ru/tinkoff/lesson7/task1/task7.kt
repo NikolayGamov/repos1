@@ -32,7 +32,9 @@ class Owner<T>( val pet: T)
 {
     fun feed(): String
     {
-        return "Домашнее животное $pet накормлено"
+        if( pet is Pet )
+            return "Домашнее животное ${pet.nickname} накормлено"
+        return "не удалось применить метод"
     }
 }
 
