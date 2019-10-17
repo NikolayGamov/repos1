@@ -32,7 +32,7 @@ class Owner<T>( val pet: T)
 {
     fun feed(): String
     {
-        return "Домашнее животное ${pet} накормлено"
+        return "Домашнее животное $pet накормлено"
     }
 }
 
@@ -58,7 +58,7 @@ fun main()
 
     // Task 3
 
-    val owner = Owner( Dog("sdawrg", 6, "M"))
+    val owner = Owner( Cat("Murka", 6, "Ж"))
 
     println(owner.feed())
 
