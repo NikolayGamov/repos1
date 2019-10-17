@@ -28,13 +28,11 @@ fun Dog.isChild(): Boolean
 class Cat(nickname: String, age: Int, sex: String?): Pet(nickname, age, sex)
 
 
-class Owner<T>( val pet: T)
+class Owner<T : Pet>( val pet: T )
 {
     fun feed(): String
     {
-        if( pet is Pet )
-            return "Домашнее животное ${pet.nickname} накормлено"
-        return "не удалось применить метод"
+        return "Домашнее животное ${pet.nickname} накормлено"
     }
 }
 
