@@ -20,6 +20,9 @@
   </component>
   <component name="ProjectId" id="1RmlRCLikChmQFpMT34IhD0BCd6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../asyncmaven" />
+  </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Fintech\repos1\Tamagotchi\src\ru\tinkoff\catsagain" />
