@@ -1,5 +1,10 @@
 package ru.tinkoff.lesson11
 
+import java.util.*
+import kotlin.collections.ArrayList
+
+val scan = Scanner(System.`in`)
+
 fun CalcHeightOfSubTree(vertex: Int, subTree: ArrayList<Int>): Int
 {
     var height = 1
@@ -28,29 +33,15 @@ fun FindRoot( tree: ArrayList<Int> ): Int
 
 fun main()
 {
-    val number = readLine()
-
-    if( number !is String )
-    {
-        println("Введена некорректная строка")
-        return
-    }
+    val number = scan.nextInt()
 
     val nodes = ArrayList<Int>()
-    for( i in 1 .. number.toInt() )
+    for( i in 1 .. number )
     {
-        val newNode = readLine()
-        if( newNode is String )
-        {
-            nodes.add( newNode.toInt() )
-        }
+        val newNode = scan.nextInt()
+        nodes.add( newNode )
     }
 
     val root = FindRoot( nodes )
-
-    var heightOfTree = CalcHeightOfSubTree(root, nodes)
-
-
-
-    println( heightOfTree )
+    println( CalcHeightOfSubTree(root, nodes) )
 }
