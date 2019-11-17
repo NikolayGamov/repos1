@@ -57,7 +57,7 @@ fun XML(block: XMLObject.() -> Unit) {block(XMLObject())}
 fun main()
 {
     XML{
-        name      = "erg"
+        name      = "Nikolay"
         surName   = "Gamov"
         birthDate = "16.12.1997"
 
