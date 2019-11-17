@@ -62,14 +62,12 @@ fun main()
         birthDate = "16.12.1997"
 
         Addresses{
-            +"srvg"
-            +"ergrwe"
-            +"ehjyyrnbynr"
+            +"547382@trjky.net"
+            +"5678@fgh.ru"
+            +"1234@abc.com"
         }
 
         PrintXML()
     }
-
-
 }
 
