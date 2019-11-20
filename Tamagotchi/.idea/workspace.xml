@@ -40,41 +40,54 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.ru.tinkoff.lesson15.Task15_2Kt">
-    <configuration name="ru.tinkoff.cats.CatsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Kotlin.ru.tinkoff.lesson15.Refactor4Kt">
+    <configuration name="ru.tinkoff.lesson15.Refactor1Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Tamagotchi" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="ru.tinkoff.cats.CatsKt" />
+      <option name="MAIN_CLASS_NAME" value="ru.tinkoff.lesson15.Refactor1Kt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ru.tinkoff.catsagain.CatsagainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="ru.tinkoff.lesson15.Refactor2Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Tamagotchi" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="ru.tinkoff.catsagain.CatsagainKt" />
+      <option name="MAIN_CLASS_NAME" value="ru.tinkoff.lesson15.Refactor2Kt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ru.tinkoff.game.GamemainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="ru.tinkoff.lesson15.Refactor3Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Tamagotchi" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="ru.tinkoff.game.GamemainKt" />
+      <option name="MAIN_CLASS_NAME" value="ru.tinkoff.lesson15.Refactor3Kt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ru.tinkoff.lesson15.Refactor4Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="Tamagotchi" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="ru.tinkoff.lesson15.Refactor4Kt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -93,26 +106,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ru.tinkoff.tamagotchi.ClassesKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="Tamagotchi" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="ru.tinkoff.tamagotchi.ClassesKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.ru.tinkoff.lesson15.Refactor4Kt" />
+        <item itemvalue="Kotlin.ru.tinkoff.lesson15.Refactor3Kt" />
+        <item itemvalue="Kotlin.ru.tinkoff.lesson15.Refactor2Kt" />
+        <item itemvalue="Kotlin.ru.tinkoff.lesson15.Refactor1Kt" />
         <item itemvalue="Kotlin.ru.tinkoff.lesson15.Task15_2Kt" />
-        <item itemvalue="Kotlin.ru.tinkoff.game.GamemainKt" />
-        <item itemvalue="Kotlin.ru.tinkoff.tamagotchi.ClassesKt" />
-        <item itemvalue="Kotlin.ru.tinkoff.catsagain.CatsagainKt" />
-        <item itemvalue="Kotlin.ru.tinkoff.cats.CatsKt" />
       </list>
     </recent_temporary>
   </component>
