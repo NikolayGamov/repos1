@@ -40,7 +40,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.ru.tinkoff.lesson15.Refactor4Kt">
+  <component name="RunManager" selected="Kotlin.ru.tinkoff.lesson15.Refactor2Kt">
     <configuration name="ru.tinkoff.lesson15.Refactor1Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Tamagotchi" />
       <option name="VM_PARAMETERS" />
@@ -108,9 +108,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.ru.tinkoff.lesson15.Refactor2Kt" />
         <item itemvalue="Kotlin.ru.tinkoff.lesson15.Refactor4Kt" />
         <item itemvalue="Kotlin.ru.tinkoff.lesson15.Refactor3Kt" />
-        <item itemvalue="Kotlin.ru.tinkoff.lesson15.Refactor2Kt" />
         <item itemvalue="Kotlin.ru.tinkoff.lesson15.Refactor1Kt" />
         <item itemvalue="Kotlin.ru.tinkoff.lesson15.Task15_2Kt" />
       </list>
