@@ -122,7 +122,7 @@ void main()
 
 
 	// инициализаци€ контейнера дл€ формировани€ результата
-	vector<int> result = {};
+	Result result = {};
 
 	cell center = { (int)(matrixSize / 2),   // начальна€ точка матрицы
 					(int)(matrixSize / 2) }; // дл€ обхода
