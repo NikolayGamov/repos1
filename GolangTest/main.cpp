@@ -71,7 +71,7 @@ void dirCh(int& dir)
 //		   steps  - ссылка на количество шагов в данном направлении
 //		   dir    - ссылка на текущее направление
 //         filledCells - ссылка на количество пройденных клеток
-void SpiralStep(int **& matrix, cell& center, Result & res, int & steps, int & dir, int & filledCells)
+void SpiralStep(int ** matrix, cell& center, Result & res, int & steps, int & dir, int & filledCells)
 {
 	int count = 0;
 
@@ -86,7 +86,7 @@ void SpiralStep(int **& matrix, cell& center, Result & res, int & steps, int & d
 	}
 
 	// увеличение числа шагов на 1 каждые 2 смены направления
-	if (dir % 2 == 0 && dir!=0)
+	if (dir % 2 == 0)
 		steps++;
 
 	dirCh(dir);
